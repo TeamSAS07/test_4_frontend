@@ -157,7 +157,7 @@
 .col-md-4 {
     flex: 1 1 calc(33.333% - 30px); /* Flex basis with gap adjustment */
     display: flex; /* Flexbox for column */
-    height: 350px;
+    height: 400px;
 }
 
 .service-item {
