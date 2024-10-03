@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Freelancing Company</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <a class="navbar-brand" href="#"><img id="company_logo" src="./img/Logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item"></li>
+                <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <header id="home" class="hero">
+                    <div class="container">
+                        <h1 class="display-4">Transforming Your Ideas into Code</h1>
+                        <p class="lead">Professional programming services tailored to your needs.</p>
+                        <a href="#contact" class="btn btn-light btn-lg">Get in Touch</a>
+                    </div>
+                </header>
+            </div>
+            
+            <div class="carousel-item">
+                <header id="home" class="hero">
+                    <div class="container">
+                        <h1 class="display-4">We are offering 50% discount on internships</h1>
+                        <p class="lead">Register now to get the discount</p>
+                        <a href="#contact" class="btn btn-light btn-lg">Get in Touch</a>
+                    </div>
+                </header>
+            </div>
+            
+        </div>
+        <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+        </a>
+        <a class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+        </a>
+    </div>
+    
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>
+                Welcome to [Your Company Name], where innovation meets expertise. We are a dynamic team dedicated to providing comprehensive technology solutions tailored to meet your unique business needs. With a strong focus on custom software development, web and app development, and system integration, we empower organizations to streamline their operations and enhance productivity.
+            </p>
+            <p>
+                Our services extend beyond development. We offer strategic consulting to help you navigate the complexities of technology, ensuring you make informed decisions that drive growth. Our dedicated maintenance and support services ensure your systems run smoothly, while our robust cybersecurity solutions protect your valuable data from emerging threats.
+            </p>
+            <p>
+                In addition to our technical services, we believe in nurturing talent through our classes and internship programs, fostering the next generation of tech professionals. Whether you're a startup looking to establish your digital presence or an established enterprise aiming to innovate, we are here to partner with you every step of the way.
+            </p>
+            <p>
+                At [Your Company Name], your success is our mission. Let’s build the future together!
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <a a href="#" data-toggle="modal" data-target="#serviceModal1">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-cogs fa-3x" aria-hidden="true"></i>
+                            </div>
+                            <h3>Custom Software Development</h3>
+                            <p>We develop tailored software solutions to meet your specific needs and enhance business
+                                efficiency.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a a href="#" data-toggle="modal" data-target="#serviceModal2">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-laptop-code fa-3x" aria-hidden="true"></i>
+                            </div>
+                            <h3>Web Development</h3>
+                            <p>Our web development services ensure a seamless, responsive, and user-friendly online presence
+                                for your business.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a a href="#" data-toggle="modal" data-target="#serviceModal3">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-mobile-alt fa-3x" aria-hidden="true"></i>
+                            </div>
+                            <h3>Mobile App Development</h3>
+                            <p>We create engaging mobile apps for iOS and Android to help you connect with your users on the
+                                go.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a a href="#" data-toggle="modal" data-target="#serviceModal4">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-lightbulb fa-3x" aria-hidden="true"></i>
+                            </div>
+                            <h3>Consulting</h3>
+                            <p>Our consulting services provide expert guidance to help you make informed decisions and drive
+                                your projects to success.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a a href="#" data-toggle="modal" data-target="#serviceModal5">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-plug fa-3x" aria-hidden="true"></i>
+                            </div>
+                            <h3>System Integration</h3>
+                            <p>We integrate disparate systems and technologies to streamline your operations and improve
+                                efficiency.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a a href="#" data-toggle="modal" data-target="#serviceModal6">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-tools fa-3x" aria-hidden="true"></i>
+                            </div>
+                            <h3>Maintenance and Support</h3>
+                            <p>Our ongoing maintenance and support services ensure that your systems run smoothly and stay
+                                up-to-date.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a a href="#" data-toggle="modal" data-target="#serviceModal7">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <!-- <i class="fa fa-tools fa-3x" aria-hidden="true"></i> -->
+                                <i class='bx bx-check-shield fa-4x' aria-hidden="true"></i>
+                            </div>
+                            <h3>Cyber Security</h3>
+                            <p>Comprehensive protection against threats to safeguard your data.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a a href="#" data-toggle="modal" data-target="#serviceModal8">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <!-- <i class="fa fa-tools fa-3x" aria-hidden="true"></i> -->
+                                <i class='bx bx-hdd fa-4x' aria-hidden="true" ></i>
+                            </div>
+                            <h3>Hardware Solutions</h3>
+                            <p>Reliable hardware to support your technological infrastructure.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a a href="#" data-toggle="modal" data-target="#serviceModal9">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class='bx bx-chalkboard fa-4x' aria-hidden="true"></i>
+                            </div>
+                            <h3>Classes Internship</h3>
+                            <p>Skill-building courses to empower individuals and teams. Hands-on experience for aspiring tech professionals to grow.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a a href="#" data-toggle="modal" data-target="#serviceModal10">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class='bx bx-chalkboard fa-4x' aria-hidden="true"></i>
+                            </div>
+                            <h3>Computer/IT job Oriented Courses</h3>
+                            <p>Computer and IT job-oriented courses are designed to equip individuals with the practical skills and knowledge needed for today's tech-driven job market.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a a href="#" data-toggle="modal" data-target="#serviceModal11">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class='bx bx-chalkboard fa-4x' aria-hidden="true"></i>
+                            </div>
+                            <h3>Job Placement</h3>
+                            <p>Job placement matches job seekers with suitable opportunities, often through career services or agencies, boosting their chances in competitive markets.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a a href="#" data-toggle="modal" data-target="#serviceModal12">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class='bx bx-chalkboard fa-4x' aria-hidden="true"></i>
+                            </div>
+                            <h3>College admission For All Degree</h3>
+                            <p>College admission for all degrees evaluates applicants based on academics, test scores, and extracurriculars to determine eligibility for higher education.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a a href="#" data-toggle="modal" data-target="#serviceModal13">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class='bx bx-chalkboard fa-4x' aria-hidden="true"></i>
+                            </div>
+                            <h3>15/45 Days Internship</h3>
+                            <p>A 15/45 days internship provides short-term, practical experience in a real-world setting.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a a href="#" data-toggle="modal" data-target="#serviceModal14">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class='bx bx-chalkboard fa-4x' aria-hidden="true"></i>
+                            </div>
+                            <h3>1 Month / 3 Month / 6 Months Internship</h3>
+                            <p>Internships of 1, 3, or 6 months offer varying lengths of practical experience, allowing interns to apply their skills and gain industry insights.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a a href="#" data-toggle="modal" data-target="#serviceModal15">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class='bx bx-chalkboard fa-4x' aria-hidden="true"></i>
+                            </div>
+                            <h3>Final year Project Training For IT Students</h3>
+                            <p>Final year project training for IT students offers hands-on experience in real-world projects, applying their skills before graduation.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a a href="#" data-toggle="modal" data-target="#serviceModal16">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class='bx bx-chalkboard fa-4x' aria-hidden="true"></i>
+                            </div>
+                            <h3>Website/software/Mobile app. development</h3>
+                            <p>Website, software, and mobile app development involves creating and designing digital solutions to meet user needs across various platforms.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a a href="#" data-toggle="modal" data-target="#serviceModal17">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class='bx bx-chalkboard fa-4x' aria-hidden="true"></i>
+                            </div>
+                            <h3>Web Design / Graphics Design / UI / UX Design</h3>
+                            <p>Web, graphic, and UI/UX design create visually appealing and user-friendly interfaces to enhance user experience.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Our Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <a a href="#" data-toggle="modal" data-target="#projectModal1">
+                        <div class="project-item">
+                            <div id="project_1_img" class="project-image">
+                                <!-- Optional: Add background image or gradient here -->
+                            </div>
+                            <h3>E-commerce website</h3>
+                            <p>Created a E-commerce website with, electronics, and home essentials.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a a href="#" data-toggle="modal" data-target="#projectModal2">
+                        <div class="project-item">
+                            <div id="project_2_img" class="project-image">
+                                <!-- Optional: Add background image or gradient here -->
+                            </div>
+                            <h3>Portfolio</h3>
+                            <p>Created a Professional portfolio for a web developer</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a a href="#" data-toggle="modal" data-target="#projectModal3">
+                        <div class="project-item">
+                            <div id="project_3_img" class="project-image">
+                                <!-- Optional: Add background image or gradient here -->
+                            </div>
+                            <h3>landing page</h3>
+                            <p>Created a Professional landing page for a company</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- Add more project items as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-item">
+                    <p>"The team provided excellent service and delivered high-quality work on time."</p>
+                    <h4>John Doe</h4>
+                    <small>CEO, Company XYZ</small>
+                </div>
+                <div class="testimonial-item">
+                    <p>"A fantastic experience from start to finish. Highly recommended!"</p>
+                    <h4>Jane Smith</h4>
+                    <small>Marketing Director, ABC Inc.</small>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Professional, reliable, and great results. Will definitely work with them again."</p>
+                    <h4>Emily Johnson</h4>
+                    <small>Product Manager, Tech Solutions</small>
+                </div>
+                <!-- Add more testimonial items as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <form id="form" method="post"
+                action="">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input name="name" type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input name="email" type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" class="form-control" id="message" rows="4"
+                        placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 My Freelancing Company. All rights reserved.</p>
+        <div class="social_medias">
+            <a href="#">
+                <i class='bx bxl-instagram'></i>
+            </a>
+            <a href="#">
+                <i class='bx bxl-facebook-circle' ></i>
+            </a>
+            <a href="#">
+                <i class='bx bxl-linkedin-square' ></i>
+            </a>
+            <a href="#">
+                <i class='bx bxl-twitter'></i>
+            </a>
+            <a href="#">
+                <i class='bx bxl-whatsapp' ></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- services model pop-up -->
+    <!-- service model 1 -->
+    <div class="modal fade" id="serviceModal1" tabindex="-1" role="dialog" aria-labelledby="serviceModalLabel1" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Custome Software Development</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Our custom software development service focuses on creating tailored solutions that align perfectly with your business goals. We analyze your specific requirements, design intuitive interfaces, and build scalable applications that enhance efficiency and productivity. Whether you need desktop applications, enterprise software, or specialized tools, our experienced developers employ the latest technologies to deliver high-quality, user-friendly solutions that evolve with your business.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- service model 2 -->
+    <div class="modal fade" id="serviceModal2" tabindex="-1" role="dialog" aria-labelledby="serviceModalLabel2" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Web Development</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    We provide comprehensive web development services that combine aesthetics and functionality. Our team crafts responsive, engaging websites optimized for both desktop and mobile platforms. From front-end design to back-end development, we ensure your website is fast, secure, and easy to navigate. We also integrate content management systems (CMS) to empower you to update your site effortlessly, enhancing user engagement and driving conversions.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- service model 3 -->
+    <div class="modal fade" id="serviceModal3" tabindex="-1" role="dialog" aria-labelledby="serviceModalLabel3" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">App Development</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Our app development services focus on creating innovative mobile applications that offer seamless user experiences across iOS and Android platforms. We specialize in both native and cross-platform app development, ensuring your app functions smoothly and efficiently. From concept and design to deployment and maintenance, we work closely with you to understand your audience and deliver a product that not only meets but exceeds their expectations.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- service model 4 -->
+    <div class="modal fade" id="serviceModal4" tabindex="-1" role="dialog" aria-labelledby="serviceModalLabel4" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Consulting</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Our consulting services provide expert guidance to help you navigate the complexities of technology in today’s fast-paced business environment. We assess your current systems, identify opportunities for improvement, and develop strategic roadmaps that align with your objectives. Whether you’re looking to implement new technologies, optimize existing processes, or drive digital transformation, our knowledgeable consultants are here to empower you with the insights and strategies you need to succeed.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- service model 5 -->
+    <div class="modal fade" id="serviceModal5" tabindex="-1" role="dialog" aria-labelledby="serviceModalLabel5" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">System Integration</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    We specialize in system integration to ensure that all your business systems work harmoniously together. By connecting disparate applications and data sources, we streamline workflows and enhance data accuracy. Our integration services help eliminate silos, enabling better communication between systems and improving overall efficiency. From API integrations to enterprise resource planning (ERP) solutions, we ensure a cohesive technology environment that supports your business objectives.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- service model 6 -->
+    <div class="modal fade" id="serviceModal6" tabindex="-1" role="dialog" aria-labelledby="serviceModalLabel6" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Maintenance and Support</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Our maintenance and support services are designed to keep your systems running smoothly and efficiently. We offer proactive monitoring, regular updates, and quick resolution of any issues that may arise. Our dedicated support team is available to assist you, ensuring minimal downtime and optimal performance. Whether it’s troubleshooting, system upgrades, or user training, we are committed to providing the support you need to maintain business continuity.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- service model 7 -->
+    <div class="modal fade" id="serviceModal7" tabindex="-1" role="dialog" aria-labelledby="serviceModalLabel7" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cybersecurity</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    In an increasingly digital world, our cybersecurity services protect your sensitive information from threats and breaches. We conduct thorough assessments to identify vulnerabilities and implement robust security measures, including firewalls, encryption, and intrusion detection systems. Our team stays updated on the latest security trends and threats, ensuring that your business remains secure. We also offer employee training programs to promote a culture of security awareness within your organization.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- service model 8 -->
+    <div class="modal fade" id="serviceModal8" tabindex="-1" role="dialog" aria-labelledby="serviceModalLabel8" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Hardware Solutions</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    We provide reliable hardware solutions tailored to support your technological infrastructure. From servers and workstations to networking equipment and peripherals, we source high-quality hardware that meets your specific requirements. Our team ensures proper installation and configuration, optimizing performance and reliability. We also offer ongoing support and maintenance, ensuring your hardware remains in peak condition and continues to meet your evolving business needs.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- service model 9 -->
+    <div class="modal fade" id="serviceModal9" tabindex="-1" role="dialog" aria-labelledby="serviceModalLabel9" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Classes and Internships</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Our classes and internship programs are designed to nurture talent and foster the next generation of tech professionals. We offer hands-on training in various technology fields, equipping participants with the skills needed to succeed in today’s competitive job market. Our internship programs provide real-world experience, allowing students to work alongside industry experts on impactful projects. By investing in education and training, we aim to empower individuals to thrive in their careers.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- service model 10 -->
+    <div class="modal fade" id="serviceModal10" tabindex="-1" role="dialog" aria-labelledby="serviceModalLabel10" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Computer/IT job Oriented Courses</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Computer and IT job-oriented courses focus on equipping learners with practical skills and knowledge relevant to the technology job market. These courses cover various fields such as programming, cybersecurity, data analysis, and cloud computing, often including hands-on training and industry certifications. By emphasizing real-world applications, they aim to enhance employability and prepare individuals for specific roles in the rapidly evolving tech industry.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- service model 11 -->
+    <div class="modal fade" id="serviceModal11" tabindex="-1" role="dialog" aria-labelledby="serviceModalLabel11" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Job Placement</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Job placement involves connecting job seekers with suitable employment opportunities through services like career counseling, resume assistance, and interview preparation. It aims to enhance candidates' chances of securing jobs by leveraging a network of employers and industry insights, ultimately facilitating a smoother transition from education or unemployment to the workforce.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- service model 12 -->
+    <div class="modal fade" id="serviceModal12" tabindex="-1" role="dialog" aria-labelledby="serviceModalLabel12" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">College admission For All Degree</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    College admission for all degrees encompasses the evaluation of applicants based on academic performance, standardized test scores, and extracurricular activities. This process aims to determine eligibility for various higher education programs, helping institutions select students who align with their academic standards and values. Additionally, factors such as personal statements, letters of recommendation, and interviews may also play a crucial role in the admission process, allowing students to showcase their unique strengths and experiences. Understanding the nuances of college admissions can empower applicants to effectively navigate the system and enhance their chances of acceptance.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- service model 13 -->
+    <div class="modal fade" id="serviceModal13" tabindex="-1" role="dialog" aria-labelledby="serviceModalLabel13" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">15/45 Days Internship</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    A 15/45 days internship provides a short-term, immersive experience that allows interns to gain practical skills and insights in a professional environment. These internships can be tailored to specific projects, enabling interns to contribute meaningfully while exploring potential career paths. Participants enhance their resumes and build valuable networks within their chosen industry. Additionally, internships often include mentorship opportunities, training sessions, and performance evaluations, which help interns receive constructive feedback and develop professionally. Engaging in such internships can also lead to future job offers, making them a critical stepping stone in a successful career.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- service model 14 -->
+    <div class="modal fade" id="serviceModal14" tabindex="-1" role="dialog" aria-labelledby="serviceModalLabel14" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">1 Month / 3 Month / 6 Months Internship</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Internships of 1, 3, or 6 months offer varying lengths of practical experience, allowing interns to apply their skills and gain insights into their chosen fields. These internships can range from short-term projects that provide a quick overview of industry practices to longer commitments that enable deeper involvement in complex tasks. Each duration presents unique opportunities for professional development, networking, and skill enhancement. Additionally, longer internships often include mentorship and training programs, which can significantly enrich the learning experience and increase employability after graduation.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- service model 15 -->
+    <div class="modal fade" id="serviceModal15" tabindex="-1" role="dialog" aria-labelledby="serviceModalLabel15" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Final year Project Training For IT Students</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Final year project training for IT students provides essential hands-on experience, enabling them to apply theoretical knowledge to real-world projects. This training often involves software development, system design, or research initiatives that align with industry standards. Through collaboration with peers and guidance from mentors, students enhance their problem-solving skills and technical competencies. Additionally, completing a final year project can serve as a portfolio piece, showcasing their abilities to potential employers and facilitating a smoother transition into the job market.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- service model 16 -->
+    <div class="modal fade" id="serviceModal16" tabindex="-1" role="dialog" aria-labelledby="serviceModalLabel16" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Website/software/Mobile app. development</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Website, software, and mobile app development involve creating digital solutions tailored to user needs across various platforms. This process encompasses design, coding, testing, and deployment, ensuring functionality and user experience. Developers often work in teams, utilizing frameworks and technologies to build responsive websites, robust software applications, and intuitive mobile apps. By focusing on user requirements and industry trends, these development projects aim to enhance accessibility and engagement, ultimately driving business goals and improving user satisfaction.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- service model 17 -->
+    <div class="modal fade" id="serviceModal17" tabindex="-1" role="dialog" aria-labelledby="serviceModalLabel17" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Web Design / Graphics Design / UI / UX Design</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Web design, graphic design, and UI/UX design focus on creating visually appealing and user-centric digital experiences. Web design encompasses layout and aesthetics for websites, while graphic design involves creating visual content for various media. UI (User Interface) design ensures that applications are visually engaging and easy to navigate, while UX (User Experience) design prioritizes overall user satisfaction and interaction flow. Together, these disciplines aim to enhance usability, accessibility, and engagement, ultimately leading to a more effective and enjoyable experience for users.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- project model 1 -->
+    <div class="modal fade" id="projectModal1" tabindex="-1" role="dialog" aria-labelledby="projectModalLabel1" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">E-Commerce website</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="project_modal_content">
+                        <img class="img-fluid d-block mx-auto" src="img/project_1.png" alt="">
+    
+                        <p>
+                            Our e-commerce website project is designed to provide a seamless online shopping experience for customers. Built with a user-friendly interface, the site features intuitive navigation, advanced search capabilities, and secure payment processing. It includes product categories, detailed descriptions, and high-quality images to enhance customer engagement. The website also incorporates features such as shopping carts, wish lists, and customer reviews to boost conversions. Additionally, we implemented responsive design to ensure optimal performance on all devices, from desktops to smartphones. With integrated analytics, the client can monitor sales trends and user behavior, allowing for data-driven decisions that drive business growth.
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- project model 2 -->
+    <div class="modal fade" id="projectModal2" tabindex="-1" role="dialog" aria-labelledby="projectModalLabel2" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Portfolio</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="project_modal_content">
+                        <img class="img-fluid d-block mx-auto" src="img/project_2.png" alt="">
+    
+                        <p>
+                            The portfolio project showcases the client’s work in a visually appealing and organized manner. Designed with a modern aesthetic, it highlights key projects through an engaging layout that combines stunning visuals and detailed descriptions. The site includes sections for various types of work, such as case studies, testimonials, and a blog to share insights and experiences. Each project features high-resolution images, project timelines, and the client’s role, providing potential clients with a clear understanding of their capabilities. We utilized responsive design to ensure that the portfolio looks great on any device, enhancing accessibility and user experience while effectively showcasing the client’s talent and creativity.
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- project model 3 -->
+    <div class="modal fade" id="projectModal3" tabindex="-1" role="dialog" aria-labelledby="projectModalLabel3" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Landing Page</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="project_modal_content">
+                        <img class="img-fluid d-block mx-auto" src="img/project_3.jpeg" alt="">
+    
+                        <p>
+                            Our landing page project is crafted to capture leads and drive conversions for a specific marketing campaign. The design focuses on a clear call-to-action, guiding visitors towards a desired outcome, such as signing up for a newsletter or downloading a resource. Featuring persuasive copy, striking visuals, and an easy-to-navigate layout, the landing page is optimized for both desktop and mobile users. We implemented A/B testing capabilities to analyze visitor behavior and optimize elements for better performance. With integrated forms and social proof, including testimonials and client logos, the landing page builds trust and encourages users to take action, ultimately enhancing the effectiveness of the marketing strategy.
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <!-- <script src="js/scripts.js"></script> -->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * * -->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
