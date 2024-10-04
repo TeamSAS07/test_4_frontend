@@ -25,7 +25,7 @@ document.querySelector('#form').addEventListener('submit', (e) => {
 
     const formData = new FormData(e.target);
 
-    fetch('https://script.google.com/macros/s/AKfycbxC1_RzO5cgxSJQR8GA5DMp3ycQpxSaN7LfgQXCjELkrckIsovs6WTp6io4EU9aZehl/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbx-cyJbxTjWsIfRwF7vHRrg0QXTT9t4tZ6Q_J8G2ZC96ALM-obH3ctod803JOaCc7mA/exec', {
         method: 'POST',
         body: formData
     })
@@ -43,6 +43,12 @@ document.querySelector('#form').addEventListener('submit', (e) => {
         alert(`An error occurred: ${err.message}`);
     });
 });
+
+
+// let menu = document.querySelector("#navbarNav")
+// menu.addEventListener("click", () => {
+//     menu.classList.toggle('show')
+// })
 
 
 

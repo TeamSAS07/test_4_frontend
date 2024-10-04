@@ -48,8 +48,8 @@
 }
 
 #company_logo{
-    width: 18%;
-    /* height: 100%; */
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -157,8 +157,10 @@
 .col-md-4 {
     flex: 1 1 calc(33.333% - 30px); /* Flex basis with gap adjustment */
     display: flex; /* Flexbox for column */
+    align-items: stretch; /* Stretch items to fill column height */
     height: 400px;
 }
+
 
 .service-item {
     background: #ffffff; /* White background for service items */
@@ -311,7 +313,6 @@
 
 
 
-
 /* Testimonials Section Styles */
 #testimonials {
     background: #f4f4f4; /* Light Gray background */
@@ -447,3 +448,25 @@ body {
 }
 
 
+.modal{
+    color: #000;
+}
+
+.col-md-4 a{
+    width: 100%;
+}
+
+.nav-item{
+    color: #000;
+}
+
+.navbar-brand{
+    width: 10%;
+    /* margin-left: 100px; */
+}
+.navbar-nav{
+    padding-right: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
