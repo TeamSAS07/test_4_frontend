@@ -1,3 +1,9 @@
+/* smooth scrolling */
+html{
+    scroll-behavior: smooth;
+}
+
+
 /* Navigation Bar Styles */
 .navbar {
     padding: 0.8rem 1.5rem; /* Adjust padding for better spacing */
@@ -91,14 +97,17 @@
 }
 
 #about h2 {
-    text-align: center;
-    margin-bottom: 2rem;
+    color: #003366; /* Dark Blue heading */
+    margin-bottom: 50px; /* Spacing below the heading */
+    font-size: 2.5rem; /* Font size for emphasis */
+    text-align: center; /* Center align heading */
 }
 
 #about p {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.6;
+    margin: auto;
 }
 
 .team {
@@ -323,6 +332,11 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.project_heading, .project_details{
+    overflow: hidden;
+}
+
 
 /* Responsive Adjustments */
 @media (max-width: 767.98px) {
