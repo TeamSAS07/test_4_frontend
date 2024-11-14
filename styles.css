@@ -78,7 +78,10 @@
     background-color: #0066cc; /* Bright Blue background on hover */
     color: #ffffff; /* White text on hover */
 }
-
+/* .swiper{
+    height: 90vh;
+    background-color: #eee;
+} */
 
 
 /* About Us Section */
@@ -208,6 +211,27 @@
 
 
 
+
+.invisible{
+    display: none;
+}
+
+.show_more_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+.show_more_container .btn-light {
+    color: #003366; /* Dark Blue text color */
+    border-color: #003366; /* Dark Blue border color */
+}
+
+.show_more_container .btn-light:hover {
+    background-color: #0066cc; /* Bright Blue background on hover */
+    color: #ffffff; /* White text on hover */
+}
 
 
 

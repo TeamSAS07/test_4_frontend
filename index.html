@@ -11,7 +11,8 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome CDN for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <!-- Custom CSS -->
     <link href="styles.css" rel="stylesheet">
 </head>
@@ -83,7 +84,8 @@
     
 
     <!-- Hero Section -->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <!-- old -->
+    <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <header id="home" class="hero">
@@ -114,8 +116,32 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden"></span>
         </a>
-    </div>
+    </div> -->
     
+    <!-- Hero Section New -->
+    <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <header id="home" class="hero">
+                <div class="container">
+                    <h1 class="display-4">Transforming Your Ideas into Code</h1>
+                    <p class="lead">Professional programming services tailored to your needs.</p>
+                    <a href="#contact" class="btn btn-light btn-lg">Get in Touch</a>
+                </div>
+            </header>
+          </div>
+          <div class="swiper-slide">
+            <header id="home" class="hero">
+                <div class="container">
+                    <h1 class="display-4">We are offering 50% discount on internships</h1>
+                    <p class="lead">Register now to get the discount</p>
+                    <a href="#contact" class="btn btn-light btn-lg">Get in Touch</a>
+                </div>
+            </header>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>  
+    </div>
 
     <!-- About Us Section -->
     <section id="about">
@@ -177,7 +203,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4">
+                <div class="invisible service">
                     <a a href="#" data-toggle="modal" data-target="#serviceModal4">
                         <div class="service-item">
                             <div class="service-icon">
@@ -189,7 +215,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4">
+                <div class="invisible service">
                     <a a href="#" data-toggle="modal" data-target="#serviceModal5">
                         <div class="service-item">
                             <div class="service-icon">
@@ -201,7 +227,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4">
+                <div class="invisible service">
                     <a a href="#" data-toggle="modal" data-target="#serviceModal6">
                         <div class="service-item">
                             <div class="service-icon">
@@ -213,7 +239,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4">
+                <div class="invisible service">
                     <a a href="#" data-toggle="modal" data-target="#serviceModal7">
                         <div class="service-item">
                             <div class="service-icon">
@@ -225,7 +251,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4">
+                <div class="invisible service">
                     <a a href="#" data-toggle="modal" data-target="#serviceModal8">
                         <div class="service-item">
                             <div class="service-icon">
@@ -237,7 +263,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4">
+                <div class="invisible service">
                     <a a href="#" data-toggle="modal" data-target="#serviceModal9">
                         <div class="service-item">
                             <div class="service-icon">
@@ -248,7 +274,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4">
+                <div class="invisible service">
                     <a a href="#" data-toggle="modal" data-target="#serviceModal10">
                         <div class="service-item">
                             <div class="service-icon">
@@ -260,7 +286,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4">
+                <div class="invisible service">
                     <a a href="#" data-toggle="modal" data-target="#serviceModal11">
                         <div class="service-item">
                             <div class="service-icon">
@@ -271,7 +297,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4">
+                <div class="invisible service">
                     <a a href="#" data-toggle="modal" data-target="#serviceModal12">
                         <div class="service-item">
                             <div class="service-icon">
@@ -282,7 +308,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4">
+                <div class="invisible service">
                     <a a href="#" data-toggle="modal" data-target="#serviceModal13">
                         <div class="service-item">
                             <div class="service-icon">
@@ -293,7 +319,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4">
+                <div class="invisible service">
                     <a a href="#" data-toggle="modal" data-target="#serviceModal14">
                         <div class="service-item">
                             <div class="service-icon">
@@ -304,7 +330,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-4">
+                <div class="invisible service">
                     <a a href="#" data-toggle="modal" data-target="#serviceModal15">
                         <div class="service-item">
                             <div class="service-icon">
@@ -316,7 +342,7 @@
                     </a>
                 </div>
                 
-                <div class="col-md-4">
+                <div class="invisible service">
                     <a a href="#" data-toggle="modal" data-target="#serviceModal16">
                         <div class="service-item">
                             <div class="service-icon">
@@ -327,6 +353,9 @@
                         </div>
                     </a>
                 </div>
+            </div>
+            <div class="show_more_container">
+                <button class="btn btn-light btn-lg">show more</button>
             </div>
         </div>
     </section>
@@ -890,6 +919,10 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <script src="main.js"></script>
 </body>
 

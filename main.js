@@ -75,3 +75,46 @@ document.querySelector('#form').addEventListener('submit', (e) => {
 //     ).setMimeType(ContentService.MimeType.JSON);
 //   }
   
+
+
+
+let services = document.querySelectorAll('.service')
+let show_more_btn = document.querySelector('.show_more_container button')
+let show_value = services.length
+let i = 0
+show_more_btn.addEventListener('click', () => {
+    console.log(show_value, services.length)
+    show_value = show_value - 3
+
+    if (show_value < 0) {
+        show_more_btn.classList.toggle('invisible')    
+    }
+    
+    for (; i < (services.length - show_value); i++) {
+        const element = services[i];
+        element.classList.toggle('invisible')
+        element.classList.toggle('col-md-4')
+    }
+})
+
+
+
+
+
+
+
+
+// swiper js
+
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    autoplay: {
+        delay: 2000,
+    },
+  });
